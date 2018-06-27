@@ -1,0 +1,21 @@
+[id*="modal-container-"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[id*="modal-container-"]:not(:target) {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+[id*="modal-container-"]:target {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s, visibility 1s;
+}
