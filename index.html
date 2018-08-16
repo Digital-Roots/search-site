@@ -73,11 +73,13 @@ layout: null
         {{ speaches.tag }}
       </td>
       <td>
-        <a href="#modal-container-{{ speaches.slug }}">Transcrit</a>
+        <a href="#modal-container-{{ speaches.slug }}">Transcript</a>
       </td>
       <td id="modal-container-{{ speaches.slug }}">
-        <span style="width: 100vw; background-color: white; color: black;"><a href="#0">Close</a></span>
-        {{ speaches.transcript }}
+        <div class="modal">
+          <span class="closed"><a href="#0">Close</a></span>
+          {{ speaches.transcript }}
+        </div>
       </td>
     </tr>
     {% endfor %}
