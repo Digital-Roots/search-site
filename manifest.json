@@ -1,0 +1,41 @@
+{
+    "dir": "ltr",
+    "lang": "de",
+    "name": "Search-site",
+    "scope": "/search-site/",
+    "display": "browser",
+    "start_url": "http://www.digitalroots.io/search-site/",
+    "short_name": "transcripts",
+    "theme_color": "transparent",
+    "description": "Comms transcripts search site",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/favicon.ico",
+            "sizes": "16x16 32x32 48x48 64x64 128x128 256x256"
+        },
+        {
+            "sizes": "70x70",
+            "src": "/images/tile.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "150x150",
+            "src": "/images/tile.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "310x310",
+            "src": "/images/tile.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "310x150",
+            "src": "/images/tile-wide.png",
+            "type": "image/png"
+        }
+    ]
+}
